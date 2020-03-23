@@ -1,0 +1,623 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2448381B242917B40027969D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2448381A242917B40027969D /* AppDelegate.m */; };
+		2448381E242917B40027969D /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2448381D242917B40027969D /* SceneDelegate.m */; };
+		24483821242917B40027969D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 24483820242917B40027969D /* ViewController.m */; };
+		24483824242917B40027969D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 24483822242917B40027969D /* Main.storyboard */; };
+		24483827242917B40027969D /* UzaerCoreDataThink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 24483825242917B40027969D /* UzaerCoreDataThink.xcdatamodeld */; };
+		24483829242917B60027969D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 24483828242917B60027969D /* Assets.xcassets */; };
+		2448382C242917B60027969D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2448382A242917B60027969D /* LaunchScreen.storyboard */; };
+		2448382F242917B60027969D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2448382E242917B60027969D /* main.m */; };
+		24483839242917B60027969D /* UzaerCoreDataThinkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24483838242917B60027969D /* UzaerCoreDataThinkTests.m */; };
+		24483844242917B60027969D /* UzaerCoreDataThinkUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 24483843242917B60027969D /* UzaerCoreDataThinkUITests.m */; };
+		24483854242918040027969D /* UzaerCoreDataThink.m in Sources */ = {isa = PBXBuildFile; fileRef = 24483852242918040027969D /* UzaerCoreDataThink.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		24483835242917B60027969D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2448380E242917B40027969D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24483815242917B40027969D;
+			remoteInfo = UzaerCoreDataThink;
+		};
+		24483840242917B60027969D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2448380E242917B40027969D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 24483815242917B40027969D;
+			remoteInfo = UzaerCoreDataThink;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24483816242917B40027969D /* UzaerCoreDataThink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UzaerCoreDataThink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		24483819242917B40027969D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2448381A242917B40027969D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2448381C242917B40027969D /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		2448381D242917B40027969D /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		2448381F242917B40027969D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		24483820242917B40027969D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		24483823242917B40027969D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		24483826242917B40027969D /* UzaerCoreDataThink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UzaerCoreDataThink.xcdatamodel; sourceTree = "<group>"; };
+		24483828242917B60027969D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2448382B242917B60027969D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2448382D242917B60027969D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2448382E242917B60027969D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		24483834242917B60027969D /* UzaerCoreDataThinkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UzaerCoreDataThinkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24483838242917B60027969D /* UzaerCoreDataThinkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UzaerCoreDataThinkTests.m; sourceTree = "<group>"; };
+		2448383A242917B60027969D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2448383F242917B60027969D /* UzaerCoreDataThinkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UzaerCoreDataThinkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		24483843242917B60027969D /* UzaerCoreDataThinkUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UzaerCoreDataThinkUITests.m; sourceTree = "<group>"; };
+		24483845242917B60027969D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		24483852242918040027969D /* UzaerCoreDataThink.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UzaerCoreDataThink.m; sourceTree = "<group>"; };
+		24483853242918040027969D /* UzaerCoreDataThink.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UzaerCoreDataThink.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24483813242917B40027969D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24483831242917B60027969D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2448383C242917B60027969D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2448380D242917B40027969D = {
+			isa = PBXGroup;
+			children = (
+				24483818242917B40027969D /* UzaerCoreDataThink */,
+				24483837242917B60027969D /* UzaerCoreDataThinkTests */,
+				24483842242917B60027969D /* UzaerCoreDataThinkUITests */,
+				24483817242917B40027969D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		24483817242917B40027969D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				24483816242917B40027969D /* UzaerCoreDataThink.app */,
+				24483834242917B60027969D /* UzaerCoreDataThinkTests.xctest */,
+				2448383F242917B60027969D /* UzaerCoreDataThinkUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		24483818242917B40027969D /* UzaerCoreDataThink */ = {
+			isa = PBXGroup;
+			children = (
+				24483851242917F20027969D /* CoreData */,
+				24483819242917B40027969D /* AppDelegate.h */,
+				2448381A242917B40027969D /* AppDelegate.m */,
+				2448381C242917B40027969D /* SceneDelegate.h */,
+				2448381D242917B40027969D /* SceneDelegate.m */,
+				2448381F242917B40027969D /* ViewController.h */,
+				24483820242917B40027969D /* ViewController.m */,
+				24483822242917B40027969D /* Main.storyboard */,
+				24483828242917B60027969D /* Assets.xcassets */,
+				2448382A242917B60027969D /* LaunchScreen.storyboard */,
+				2448382D242917B60027969D /* Info.plist */,
+				2448382E242917B60027969D /* main.m */,
+				24483825242917B40027969D /* UzaerCoreDataThink.xcdatamodeld */,
+			);
+			path = UzaerCoreDataThink;
+			sourceTree = "<group>";
+		};
+		24483837242917B60027969D /* UzaerCoreDataThinkTests */ = {
+			isa = PBXGroup;
+			children = (
+				24483838242917B60027969D /* UzaerCoreDataThinkTests.m */,
+				2448383A242917B60027969D /* Info.plist */,
+			);
+			path = UzaerCoreDataThinkTests;
+			sourceTree = "<group>";
+		};
+		24483842242917B60027969D /* UzaerCoreDataThinkUITests */ = {
+			isa = PBXGroup;
+			children = (
+				24483843242917B60027969D /* UzaerCoreDataThinkUITests.m */,
+				24483845242917B60027969D /* Info.plist */,
+			);
+			path = UzaerCoreDataThinkUITests;
+			sourceTree = "<group>";
+		};
+		24483851242917F20027969D /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				24483853242918040027969D /* UzaerCoreDataThink.h */,
+				24483852242918040027969D /* UzaerCoreDataThink.m */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		24483815242917B40027969D /* UzaerCoreDataThink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 24483848242917B60027969D /* Build configuration list for PBXNativeTarget "UzaerCoreDataThink" */;
+			buildPhases = (
+				24483812242917B40027969D /* Sources */,
+				24483813242917B40027969D /* Frameworks */,
+				24483814242917B40027969D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UzaerCoreDataThink;
+			productName = UzaerCoreDataThink;
+			productReference = 24483816242917B40027969D /* UzaerCoreDataThink.app */;
+			productType = "com.apple.product-type.application";
+		};
+		24483833242917B60027969D /* UzaerCoreDataThinkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2448384B242917B60027969D /* Build configuration list for PBXNativeTarget "UzaerCoreDataThinkTests" */;
+			buildPhases = (
+				24483830242917B60027969D /* Sources */,
+				24483831242917B60027969D /* Frameworks */,
+				24483832242917B60027969D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24483836242917B60027969D /* PBXTargetDependency */,
+			);
+			name = UzaerCoreDataThinkTests;
+			productName = UzaerCoreDataThinkTests;
+			productReference = 24483834242917B60027969D /* UzaerCoreDataThinkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2448383E242917B60027969D /* UzaerCoreDataThinkUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2448384E242917B60027969D /* Build configuration list for PBXNativeTarget "UzaerCoreDataThinkUITests" */;
+			buildPhases = (
+				2448383B242917B60027969D /* Sources */,
+				2448383C242917B60027969D /* Frameworks */,
+				2448383D242917B60027969D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				24483841242917B60027969D /* PBXTargetDependency */,
+			);
+			name = UzaerCoreDataThinkUITests;
+			productName = UzaerCoreDataThinkUITests;
+			productReference = 2448383F242917B60027969D /* UzaerCoreDataThinkUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2448380E242917B40027969D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Uzaer;
+				TargetAttributes = {
+					24483815242917B40027969D = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					24483833242917B60027969D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 24483815242917B40027969D;
+					};
+					2448383E242917B60027969D = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = 24483815242917B40027969D;
+					};
+				};
+			};
+			buildConfigurationList = 24483811242917B40027969D /* Build configuration list for PBXProject "UzaerCoreDataThink" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2448380D242917B40027969D;
+			productRefGroup = 24483817242917B40027969D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				24483815242917B40027969D /* UzaerCoreDataThink */,
+				24483833242917B60027969D /* UzaerCoreDataThinkTests */,
+				2448383E242917B60027969D /* UzaerCoreDataThinkUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		24483814242917B40027969D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2448382C242917B60027969D /* LaunchScreen.storyboard in Resources */,
+				24483829242917B60027969D /* Assets.xcassets in Resources */,
+				24483824242917B40027969D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24483832242917B60027969D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2448383D242917B60027969D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		24483812242917B40027969D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2448382F242917B60027969D /* main.m in Sources */,
+				24483821242917B40027969D /* ViewController.m in Sources */,
+				2448381B242917B40027969D /* AppDelegate.m in Sources */,
+				2448381E242917B40027969D /* SceneDelegate.m in Sources */,
+				24483827242917B40027969D /* UzaerCoreDataThink.xcdatamodeld in Sources */,
+				24483854242918040027969D /* UzaerCoreDataThink.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		24483830242917B60027969D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24483839242917B60027969D /* UzaerCoreDataThinkTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2448383B242917B60027969D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24483844242917B60027969D /* UzaerCoreDataThinkUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		24483836242917B60027969D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24483815242917B40027969D /* UzaerCoreDataThink */;
+			targetProxy = 24483835242917B60027969D /* PBXContainerItemProxy */;
+		};
+		24483841242917B60027969D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 24483815242917B40027969D /* UzaerCoreDataThink */;
+			targetProxy = 24483840242917B60027969D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		24483822242917B40027969D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				24483823242917B40027969D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2448382A242917B60027969D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2448382B242917B60027969D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		24483846242917B60027969D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		24483847242917B60027969D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		24483849242917B60027969D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23GKYE32ZY;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = UzaerCoreDataThink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uzaer.UzaerCoreDataThink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2448384A242917B60027969D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23GKYE32ZY;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
+				INFOPLIST_FILE = UzaerCoreDataThink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uzaer.UzaerCoreDataThink;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2448384C242917B60027969D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23GKYE32ZY;
+				INFOPLIST_FILE = UzaerCoreDataThinkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uzaer.UzaerCoreDataThinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UzaerCoreDataThink.app/UzaerCoreDataThink";
+			};
+			name = Debug;
+		};
+		2448384D242917B60027969D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23GKYE32ZY;
+				INFOPLIST_FILE = UzaerCoreDataThinkTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uzaer.UzaerCoreDataThinkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UzaerCoreDataThink.app/UzaerCoreDataThink";
+			};
+			name = Release;
+		};
+		2448384F242917B60027969D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23GKYE32ZY;
+				INFOPLIST_FILE = UzaerCoreDataThinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uzaer.UzaerCoreDataThinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UzaerCoreDataThink;
+			};
+			name = Debug;
+		};
+		24483850242917B60027969D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 23GKYE32ZY;
+				INFOPLIST_FILE = UzaerCoreDataThinkUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = uzaer.UzaerCoreDataThinkUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UzaerCoreDataThink;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		24483811242917B40027969D /* Build configuration list for PBXProject "UzaerCoreDataThink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24483846242917B60027969D /* Debug */,
+				24483847242917B60027969D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		24483848242917B60027969D /* Build configuration list for PBXNativeTarget "UzaerCoreDataThink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				24483849242917B60027969D /* Debug */,
+				2448384A242917B60027969D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2448384B242917B60027969D /* Build configuration list for PBXNativeTarget "UzaerCoreDataThinkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2448384C242917B60027969D /* Debug */,
+				2448384D242917B60027969D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2448384E242917B60027969D /* Build configuration list for PBXNativeTarget "UzaerCoreDataThinkUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2448384F242917B60027969D /* Debug */,
+				24483850242917B60027969D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		24483825242917B40027969D /* UzaerCoreDataThink.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				24483826242917B40027969D /* UzaerCoreDataThink.xcdatamodel */,
+			);
+			currentVersion = 24483826242917B40027969D /* UzaerCoreDataThink.xcdatamodel */;
+			path = UzaerCoreDataThink.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2448380E242917B40027969D /* Project object */;
+}
