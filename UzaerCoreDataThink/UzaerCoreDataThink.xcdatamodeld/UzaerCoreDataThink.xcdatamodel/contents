@@ -4,6 +4,9 @@
         <attribute name="id" optional="YES" attributeType="String"/>
         <attribute name="name" optional="YES" attributeType="String"/>
         <attribute name="sex" optional="YES" attributeType="String"/>
+        <fetchIndex name="byPropertyIndex">
+            <fetchIndexElement property="id" type="Binary" order="ascending"/>
+        </fetchIndex>
     </entity>
     <elements>
         <element name="Test" positionX="-63" positionY="-18" width="128" height="88"/>

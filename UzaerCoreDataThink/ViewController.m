@@ -41,6 +41,9 @@
 - (IBAction)select:(id)sender
 {
     NSArray*arr=[[[UzaerCoreDataThink tool] entity:@"Test"] select];
+    
+    
+    
     NSLog(@"%@",arr);
 }
 - (IBAction)find:(id)sender

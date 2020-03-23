@@ -1,6 +1,11 @@
 # UzaerCoreDataThink
 iOS原生数据库Coredata快捷操作
 
+# 因使用到runtime 顾请将项目中的 Enable Strict Checking of objc_msgSend Calls 设置为NO;
+
+coredata建表
+![Image](https://raw.githubusercontent.com/siyecao/image-folder/master/images/file_watchers.png)
+
 coredata数据库增删改查等操作
 
 1.增
@@ -43,3 +48,5 @@ offset:Count:方法
 
 count方法
 查询符合条件的数据量，如where不传，则返回整个表数据条数
+
+完整查询示例:[[[[[[UzaerCoreDataThink tool] entity:@"表名"] where:@{@"name":@"uzaer"}] where:@"id > 1"] offset:0 Count:50] select];
