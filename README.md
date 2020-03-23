@@ -4,7 +4,7 @@ iOS原生数据库Coredata快捷操作
 # 因使用到runtime 顾请将项目中的 Enable Strict Checking of objc_msgSend Calls 设置为NO;
 
 coredata建表
-![Image](https://raw.githubusercontent.com/siyecao/image-folder/master/images/file_watchers.png)
+![Image](https://github.com/Uzaer-WZR/UzaerCoreDataThink/blob/master/coredata_img.jpeg)
 
 coredata数据库增删改查等操作
 
